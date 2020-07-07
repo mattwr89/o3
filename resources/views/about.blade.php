@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Psychologia</title>
+        <title>O mnie</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -84,10 +84,13 @@
 
             <div class="content">
                 <div class="title">
-                    Anna M - Psycholog
+                   Kilka słow o mnie
                 </div>
                 <div class="subtitle">
-                Psychotraumatologia, interwencja kryzysowa
+                <p>
+                
+                
+                </p>
                 </div>
                 <br>
                 <div class="links">
