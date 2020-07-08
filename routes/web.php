@@ -21,18 +21,6 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/o-mnie', function () {
-    return view('/about');
-});
-
-Route::get('/Terapia', function () {
-    return view('service');
-});
-
-Route::get('/Cennik', function () {
-    return view('pricet');
-});
-
-Route::get('/Kontakt', function () {
-    return view('Kontakt');
+Route::get('/strona/{test}', function ($test) {
+    return view('Witaj: '. $test);
 });
