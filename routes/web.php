@@ -17,10 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
+Route::get('login', function () {
     return view('login');
 });
 
-Route::get('/strona/{test}', function ($test) {
-    return view('Witaj: '. $test);
-});
+Route::get('strona/{test}', 'PageController@show'); 
+ 
